@@ -1,0 +1,36 @@
+<section class="section">
+
+</section>
+<section class="section section-under">
+    <div class="container">
+
+
+        <div class="columns is-mobile is-centered">
+            <div class="column">
+
+                <div class="box">
+
+                    <form [formGroup]="authForm" (ngSubmit)="login()">
+                        <mat-form-field>
+                            <mat-label>Email</mat-label>
+                            <input matInput formControlName="email" placeholder="jane@doe.com">
+
+                        </mat-form-field>
+                        <br>
+                        <mat-form-field>
+
+                            <mat-label>Password</mat-label>
+                            <input matInput formControlName="password" placeholder="password">
+
+                        </mat-form-field>
+
+                        <div class="buttons">
+                            <button class="button is-info"> Register </button>
+                            <button class="button is-"> Login </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

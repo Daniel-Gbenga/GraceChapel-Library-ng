@@ -1,0 +1,30 @@
+section.section {
+    place-items: center;
+    height: 50%;
+    background: rgb(255,1,255);
+    background: linear-gradient(179deg, rgba(192,158,113,1) 61%, rgba(233,229,226,1) 62%);
+}
+
+section.section-under {
+    height: 50%;
+    background: rgb(192,158,113);
+    background: linear-gradient(359deg, rgba(192,158,113,1) 61%, rgba(233,229,226,1) 62%);
+}
+
+.container {
+    margin-top: -8.5rem;
+    padding-bottom: 1rem;
+    width: fit-content;
+}
+
+.box {
+    // background-color: #a9b1b3;
+    min-width: 300px;
+}
+
+form {
+    width: fit-content;
+}
+
+$box-background-color: #EFF0EB;
+
